@@ -1,0 +1,53 @@
+{
+  "username": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": 1,
+      "username": "karen cocobaar",
+      "password": "admin123",
+      "domicilio": "lamadrid 1000",
+      "email": "karen@gmail.com",
+      "roll": "usser"
+    },
+    {
+      "id": 2,
+      "username": "cardozo carlos",
+      "password": "admin123",
+      "domicilio": "bolivar 1000",
+      "email": "cardo@gmail.com",
+      "roll": "usser"
+    }
+  ],
+
+  "productos": [
+    { 
+    "id": "1" ,
+    "nombre":"",
+    "marca":"" ,
+    "precio":"" ,
+    "descripcion":"",
+    "fecha de vencimiento":""
+
+},
+   { 
+"id": 2,
+"nombre":"",
+"marca": "",
+"precio": "",
+"descripcion":"",
+"fecha de vencimiento":""
+},
+    { 
+    "id": 3 ,
+"nombre":"",
+"marca":"" ,
+"precio":"" ,
+"descripcion":"",
+"fecha de vencimiento":""
+
+    }]
+}

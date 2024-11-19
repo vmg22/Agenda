@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+h2 {
+    margin-bottom: 30px;
+    text-shadow:10px 5px 5px black ;
+}
+
+form {
+    background-color: rgba(0, 0, 0, .4);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+form input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form input:focus,
+form input:valid {
+    border-bottom-color: lightblue;
+    outline: none;
+}
+
+form button {
+    background-color: lightblue;
+    color: #000;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #7ec8e3;
+}
+
+form button:focus {
+    outline: none;
+}

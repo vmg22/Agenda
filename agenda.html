@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="agenda.css" />
+    <title>Agenda Telefónica</title>
+  </head>
+
+  <body>
+    <h1>Agenda Telefónica</h1>
+
+    <form id="formulario_contactos">
+      <label for="nomyape">Nombre y Apellido:</label>
+      <input type="text" id="nomyape" required />
+
+      <label for="telefono">Teléfono:</label>
+      <input type="text" id="telefono" required />
+
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <button type="submit">Agregar Contacto</button>
+    </form>
+
+    <div id="success-message" class="message">
+      ¡Contacto agregado con éxito!
+    </div>
+
+    <table id="contacts-table">
+      <thead>
+        <tr>
+          <th>Nombre y Apellido</th>
+          <th>Teléfono</th>
+          <th>Dirección</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="agenda.js"></script>
+  </body>
+</html>
